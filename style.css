@@ -264,6 +264,80 @@ textarea { height: 90px; resize: none; }
   100% { transform: translateY(0); }
 }
 
+/*epr process start*/
+.procedures {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+.pro-container {
+  max-width: 900px;
+  width: 100%;
+}
+.pro-container h2{
+  color: #154c79;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+hr{
+  border: 2px solid #e28743;
+  width: 20%;
+  margin: 0 auto;
+  
+}
+
+.step {
+  background: #ffffff;
+  border: 2px solid #ddd;
+  border-bottom: 10px solid #e28743;
+  border-radius: 0 50px 0 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  background-color: whitesmoke;
+  transition: transform 0.21s ease-in-out;
+  animation: bounceIn 1s ease;
+}
+.step:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 80px;
+  color: #4A90E2;
+  margin-right: 15px;
+  margin-left: 15%;
+}
+
+.step-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+
+}
+
+.step-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #154c79;
+  margin-bottom: 10px;
+}
+
+.step-description {
+  font-size: 1.2rem;
+  color: #555;
+
+  margin-top: 5px;
+}
+/*epr process ends*/
+
 
 @media (max-width: 768px) {
   
