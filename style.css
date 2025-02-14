@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+/**********navigation bar**********/
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display:flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 20px 20px;
+  color:#154c79;
+}
+.logomiddle{
+  color:#e28743;
+}
+
+/* consult now button start */
+.bookbtn {
+  background:#e28743;
+  border: 1px solid #154c79;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.bookbtn:hover,
+.boobtn:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #154c79;
+}
+
+.bookbtn:active {
+  opacity: .5;
+}
+
+@media (max-width: 768px){
+ /*navigation bar*/
+  .navbar{
+    max-height: ;
+    padding: 5px 10px 10px 10px;
+  }
+ .navbar,h2{
+   font-size: 1.5rem;
+ }
+}
+/* consult now button ends */
