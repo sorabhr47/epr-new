@@ -4,77 +4,142 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100%;
-  width: 100%;
-}
-
 body {
   font-family: 'Arial', sans-serif;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
-/**********navigation bar**********/
 .navbar {
   position: absolute;
   top: 0;
   left: 0;
-  display:flex;
+  display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px 20px 20px;
-  color:#154c79;
-}
-.logomiddle{
-  color:#e28743;
-}
-
-/* consult now button start */
-.bookbtn {
-  background:#e28743;
-  border: 1px solid #154c79;
-  border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
-  font-size: 16px;
-  font-weight: 800;
-  line-height: 16px;
-  min-height: 40px;
-  outline: 0;
-  padding: 12px 14px;
-  text-align: center;
-  text-rendering: geometricprecision;
-  text-transform: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-}
-
-.bookbtn:hover,
-.boobtn:active {
-  background-color: initial;
-  background-position: 0 0;
+  padding: 10px 20px;
   color: #154c79;
 }
 
-.bookbtn:active {
-  opacity: .5;
+.logomiddle {
+  color: #e28743;
 }
 
-@media (max-width: 768px){
- /*navigation bar*/
-  .navbar{
-    max-height: ;
-    padding: 5px 10px 10px 10px;
-  }
- .navbar,h2{
-   font-size: 1.5rem;
- }
+.bookbtn {
+  background: #e28743;
+  border: 1px solid #154c79;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 800;
+  padding: 12px 14px;
+  text-align: center;
+  animation: bounceIn 1s ease;
 }
-/* consult now button ends */
+
+@keyframes bounceIn {
+  0% { transform: scale(0.5); opacity: 0; }
+  60% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+.bookbtn:hover { color: #154c79; background: #fff; }
+
+header {
+  width: 100%;
+  height: auto;
+  background-image: url('https://i.postimg.cc/rwwtwBtt/images-2025-02-07-T194458-146.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.float-child {
+  flex: 1 1 50%;
+  padding: 20px;
+}
+
+.green {
+  color: black;
+  padding: 20% 0;
+}
+
+.green h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.green p {
+  font-size: 1.2rem;
+  padding: 0 0 0 5%;
+}
+
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.option {
+  flex: 1 0 48%;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.option:hover { font-weight: bold; }
+
+.header-contact-form {
+  margin: 15% 2%;
+  background: #fff;
+  padding: 2%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.form-group { 
+  margin-bottom: 4%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+textarea { height: 90px; resize: none; }
+
+.submit {
+  width: 100%;
+  background: #3498db;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit:hover { background: #2980b9; }
+
+@media (max-width: 768px) {
+  .navbar { padding: 5px 10px; }
+
+  header { flex-direction: column; }
+
+  .float-child { flex: 1 1 100%; }
+
+  .options-container { width: 100%; }
+
+  .option { font-size: 1rem; }
+
+  .submit { width: 100%; }
+}
