@@ -431,6 +431,49 @@ hr{
 }
 /*epr to me end*/
 
+/*epr rule*/
+eprrule {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container-rule {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.eprrule-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0056b3;
+}
+
+.rule {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-left: 5px solid #0073e6;
+  background: #f1f9ff;
+  border-radius: 8px;
+ }
+
+ .rule h2 {
+  font-size: 1.2em;
+  color: #0056b3;
+  margin-bottom: 10px;
+ }
+
+ .rule p {
+  font-size: 0.95em;
+  color: #555;
+ }
+/*epr rule end*/
+
 
 @media (max-width: 768px) {
   
@@ -473,12 +516,10 @@ hr{
   .step-description {font-size: 1rem;}
 
   /*epr to me*/
-  .container-me {
-    padding: 20px;
-  }
-  .grid {
-    grid-template-columns: 1fr;
-  }
+  .container-me { padding: 10px;}
+  
+  .grid {grid-template-columns: 1fr;}
+  
   .grid-content {grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));}
   
   .card-title {font-size: 1.25rem;}
