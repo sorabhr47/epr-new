@@ -520,6 +520,200 @@ eprrule {
 
 /*parallax end*/
 
+/*epr rquirement ends*/
+.requirments {
+  font-family: 'Arial', sans-serif;
+  background-color:whitesmoke;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  
+}
+
+.container-requirments {
+  max-width: 900px;
+  margin: 0 auto;
+  background: whitesmoke;
+  padding: 25px;
+  border-radius: 10px;
+  /*
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  */
+}
+
+.container-requirments h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #154c79;
+  
+}
+
+.requirments-ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f1f9ff;
+  border-left: 5px solid #e28743;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-start;
+}
+
+li::before {
+  content: "\27A1";
+  color: #154c79;
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+.requirments-p {
+  font-size: 0.95em;
+  color: #333;
+}
+/*epr rquirement ends*/
+/*Faq*/
+.faq {
+  background-color: white;
+  padding: 20px;
+}
+
+.faq-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-section h1 {
+  text-align: center;
+  color: #e28743;
+  margin-bottom: 20px;
+}
+
+.faq-item {
+  background: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq-question {
+  color: #154c79;
+  padding: 15px;
+  background: #f0f0f0;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question:hover {
+  background: #e6e6e6;
+}
+
+.faq-answer {
+  display: none;
+  padding: 15px;
+  background: #ffffff;
+  border-top: 1px solid #ddd;
+  color: #555;
+}
+
+.faq-question span {
+  transition: transform 0.3s;
+}
+
+.faq-question.active span {
+  transform: rotate(180deg);
+}
+/*
+.faq-answer p {
+  margin: 0;
+}
+*/
+
+/******footer****/
+
+.footer-section{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color:white;
+}
+.contact-section {
+  padding: 50px;
+  background: linear-gradient(150deg, white 40%, #222 40%);
+  color: white;
+}
+.contact-container {
+  max-width: 1500px;
+  margin: auto;
+  background: #222;
+  padding: 30px;
+  border-radius: 10px;
+}
+.footer-logo-h2{
+  text-align: left;
+}
+.footer-logo-p{
+  font-size: 20px;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact-details, .contact-form {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px;
+}
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  background: #333;
+  color: white;
+}
+.contact-form button {
+  background: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.contact-form { 
+
+  background: #fff;
+  padding: 1%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/*footer ends*/
 
 @media (max-width: 768px) {
 
@@ -609,7 +803,16 @@ eprrule {
     font-size: 0.8rem;
   }
   /*parallax end*/
-
+  
+  /*requirments starts*/
+  li {
+    font-size: 0.9em;
+  }
+  /*footer*/
+  .contact-info {
+      flex-direction: column;
+      text-align: center;
+  }
 
 
 }
