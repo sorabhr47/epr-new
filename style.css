@@ -572,6 +572,58 @@ eprrule {
 
 /*parallax end*/
 
+/*--------types--->*/
+.types {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px 20px;
+}
+.epr-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.epr-box {
+  width: 200px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 1s ease-out, opacity 1s ease-in;
+  opacity: 0;
+  position: relative;
+}
+.epr-box img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+.epr-left {
+  transform: translateX(100%) scale(0.9);
+}
+.epr-right {
+  transform: translateX(-100%) scale(0.9);
+}
+.epr-box.visible {
+  transform: translateX(0) scale(1);
+  opacity: 1;
+}
+.consult-btn {
+  padding: 12px 25px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.consult-btn:hover {
+  background-color: #0056b3;
+}
+/*--------types ends--->*/
+
 /*epr rquirement ends*/
 .requirments {
   background-color: #f2f2f2;
