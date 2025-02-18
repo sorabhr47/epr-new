@@ -333,8 +333,8 @@ hr {
 
 .step {
   background: #fff;
-  border: 2px solid #154c79;
-  border-bottom: 10px solid #e28743;
+  border: 1px solid #154c79;
+  border-bottom: 5px solid #e28743;
   border-radius: 0 50px 0 50px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -574,19 +574,31 @@ eprrule {
 
 /*--------types--->*/
 .types {
-  font-family: Arial, sans-serif;
   text-align: center;
-  padding: 50px 20px;
+  padding: 0%;
+  margin: 1%;
 }
-.epr-section {
+.types h2{
+  color: #154c79;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.types p{
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+.types-section {
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   position: relative;
 }
-.epr-box {
-  width: 200px;
+.types-box {
+  width: 20%;
+  height: auto;
   padding: 20px;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -594,18 +606,18 @@ eprrule {
   opacity: 0;
   position: relative;
 }
-.epr-box img {
+.types-box img {
   width: 100px;
   height: 100px;
   margin-bottom: 15px;
 }
-.epr-left {
+.types-left {
   transform: translateX(100%) scale(0.9);
 }
-.epr-right {
+.types-right {
   transform: translateX(-100%) scale(0.9);
 }
-.epr-box.visible {
+.types-box.visible {
   transform: translateX(0) scale(1);
   opacity: 1;
 }
@@ -613,14 +625,14 @@ eprrule {
   padding: 12px 25px;
   font-size: 1rem;
   color: white;
-  background-color: #007bff;
+  background-color: #e28743;
   border: none;
   border-radius: 20px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 .consult-btn:hover {
-  background-color: #0056b3;
+  background-color: #154c79;
 }
 /*--------types ends--->*/
 
@@ -679,6 +691,48 @@ li::before {
 }
 
 /*epr rquirement ends*/
+
+/*parallax */
+.parallax-form {
+  background-image: url('https://i.ibb.co/JwnB21cD/IMG-20250209-023113.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:33% 25% 0% 25%;
+  border-bottom: 50px solid #e28743;;
+}
+
+.parallax-form-content {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 900px;
+  width: 50%;
+  height: 100%;
+}
+
+.parallax-form-content h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #154c79;
+  margin-bottom: 5px;
+}
+
+.parallax-form-content p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/*parallax end*/
+
 /*Faq*/
 .faq {
   background-color: white;
@@ -861,7 +915,7 @@ span:active{
 }
 
 /*footer ends*/
-
+/*********************media****************/
 @media (max-width: 768px) {
 
   .navbar {
@@ -1034,7 +1088,59 @@ span:active{
   }
 
   /*parallax end*/
-
+/*********types*********/
+  .types {
+    padding: 2%;
+    margin-bottom: 2%;
+  }
+  .types h2{
+    font-size: 1rem;
+  }
+  .types p{
+    font-size: 0.5rem;
+  }
+  
+  .types-section {
+  /*
+     flex-direction: column;
+  */
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .types-box{
+    width: 33%;
+    height: auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    /*
+    transition: transform 1s ease-out, opacity 1s ease-in;
+     opacity: 0;
+    position: relative;
+    */
+  }
+  .types-box img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  /*
+  .types-left {
+    transform: translateX(100%) scale(0.9);
+  }
+  .typesr-right {
+    transform: translateX(-100%) scale(0.9);
+  }
+  .types-box.visible{
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+  */
+  .consult-btn{
+    padding: 8px 15px;
+    font-size: 0.8rem;
+  }
+  
   /*requirments starts*/
 
   .requirments {
@@ -1066,6 +1172,25 @@ span:active{
   .requirments-p {
     font-size: 0.5rem;
   }
+  /*parallax*/
+  .parallax-form {
+    height: 30%;
+  }
+
+  .parallax-form-content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .parallax-form-content h2 {
+    font-size: 1rem;
+  }
+
+  .parallax-form-content p {
+    font-size: 0.8rem;
+  }
+
+  /*parallax end*/
 
   .faq-answer {
     display: none;
@@ -1123,7 +1248,4 @@ span:active{
     text-align: center;
   }
   */
-  
-  }
-
 }
