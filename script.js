@@ -28,6 +28,6 @@ const observer = new IntersectionObserver(entries => {
     });
 }, { threshold: 0.3 });
 
-document.querySelectorAll('.epr-box').forEach(box => {
+document.querySelectorAll('.types-box').forEach(box => {
     observer.observe(box);
 });
