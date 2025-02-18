@@ -693,44 +693,7 @@ li::before {
 /*epr rquirement ends*/
 
 /*parallax */
-.parallax-form {
-  background-image: url('https://i.ibb.co/JwnB21cD/IMG-20250209-023113.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-color: #f9f9f9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding:33% 25% 0% 25%;
-  border-bottom: 50px solid #e28743;;
-}
-
-.parallax-form-content {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  max-width: 900px;
-  width: 50%;
-  height: 100%;
-}
-
-.parallax-form-content h2 {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #154c79;
-  margin-bottom: 5px;
-}
-
-.parallax-form-content p {
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 10px;
-}
-
+.
 /*parallax end*/
 
 /*Faq*/
@@ -1173,23 +1136,7 @@ span:active{
     font-size: 0.5rem;
   }
   /*parallax*/
-  .parallax-form {
-    height: 30%;
-  }
-
-  .parallax-form-content {
-    width: 100%;
-    height: 100%;
-  }
-
-  .parallax-form-content h2 {
-    font-size: 1rem;
-  }
-
-  .parallax-form-content p {
-    font-size: 0.8rem;
-  }
-
+  
   /*parallax end*/
 
   .faq-answer {
@@ -1222,30 +1169,4 @@ span:active{
     border-radius: 10px;
   }
   
-  /*
-  .footer-logo-h2 {
-    text-align: center;
-  }
-  .footer-logo-p{
-    text-align: center;
-  }
-  .footer-email{
-    text-align: center;
-  }
-  .footer-contact{
-    text-align: center;
-  }
-  .footer-email p{
-    text-align: center;
-  }
-  .footer-contact p{
-    text-align: center;
-  }
-  .social-icons {
-    justify-content: center;
-  }
-  .footer{
-    text-align: center;
-  }
-  */
 }
