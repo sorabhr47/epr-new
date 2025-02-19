@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flag Design</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .flag {
+            width: 90vw;
+            max-width: 600px;
+            aspect-ratio: 3 / 2;
+            position: relative;
+        }
+        .parallax-container{
+            background-color: red;
+            height: 50%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+        }
+        .bottom {
+            background-color: gold;
+            height: 50%;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+        .center-box {
+            background-color: black;
+            width: 30%;
+            height: 40%;
+            position: absolute;
+            top: 30%;
+            left: 35%;
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @media (max-width: 500px) {
+            .center-box {
+                width: 40%;
+                height: 50%;
+                top: 25%;
+                left: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+   <div class="parallax-form" 
+    <div class="parallax-form">
+        <div class="parallax-container"></div>
+        <div class="bottom"></div>
+        <div class="center-box"></div>
+    </div>
+</body>
+</html>
