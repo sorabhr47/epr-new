@@ -436,6 +436,7 @@ hr {
   border: 2px solid #154c79;
   border-radius: 10px;
   padding: 20px;
+  padding-bottom: 8px;
   text-align: left;
   display: flex;
   flex-direction: column;
@@ -457,6 +458,21 @@ hr {
 .card-description {
   font-size: 1rem;
   color: #7f8c8d;
+}
+.eprtome-btn {
+  background: #e28743;
+  color: white;
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.eprtome-btn:hover{
+  scale: 1.05;
+  background-color: #154c79;
+  color:#e28743;
 }
 
 .image img {
@@ -1016,13 +1032,17 @@ span:active{
   color: white;
 }
 
-.contact-form button {
+.footer-btn {
   background: #e28743;
   color: white;
   padding: 10px;
   border: none;
   cursor: pointer;
   width: 100%;
+}
+.footer-btn:hover{
+  scale: 1.02;
+  background-color: #154c79;
 }
 
 .social-icons {
