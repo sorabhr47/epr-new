@@ -10,6 +10,9 @@
     overflow-x: hidden;
     background-color: white;
   }
+  n{
+   color:#e28743;
+  }
 
   .navbar {
     position: absolute;
@@ -698,7 +701,7 @@
 
   li::before {
     content: "\27A1";
-    color: #154c79;
+    color: #e28743;
     font-size: 1.2em;
     margin-right: 10px;
   }
