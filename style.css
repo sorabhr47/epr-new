@@ -27,7 +27,7 @@ n{
 }
 
 .logomiddle {
-  color: #154c79;
+  color: white;
 }
 
 .bookbtn {
@@ -67,7 +67,7 @@ n{
 header {
   width: 100%;
   height: auto;
-  background-image: url('https://i.ibb.co/DNf2TmX/IMG-20250222-005917.jpg');
+  background-image: url('https://i.postimg.cc/KYPMgjjN/IMG-20250223-042123.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5%;
@@ -450,7 +450,6 @@ hr {
   justify-content: space-between;
   transition: box-shadow 0.3s;
 }
-
 .card:hover {
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
@@ -746,7 +745,7 @@ li::before {
 }
 
 .parallax-bottom {
-  background-image: url('https://i.ibb.co/N5hWFZ3/IMG-20250222-020343.jpg');
+  background-image: url('https://i.postimg.cc/5NC6DjJm/IMG-20250223-035627.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -993,6 +992,9 @@ span:active{
 .footer-logo-h2 {
   text-align: left;
 }
+.contact-container h2{
+  color: #e28743;
+}
 
 .footer-logo-p {
   font-size: 0.8rem;
@@ -1033,7 +1035,7 @@ span:active{
 .contact-form textarea {
   width: 100%;
   padding: 10px;
-  margin: 10px 0;
+  margin: 5px 0;
   border: none;
   background: #154c79;
   color: white;
@@ -1346,7 +1348,7 @@ span:active{
   }
   .parallax-form-container {
     width: 100%;
-    max-width: 98%;
+    max-width: 100%;
     aspect-ratio: 2/ 5;
     position: relative;
   }
