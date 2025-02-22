@@ -88,12 +88,13 @@ header {
 .green h1 {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #154c79;
+  color: white;
 }
 
 .green p {
-  font-size: 1.2rem;
-  padding: 0 0 0 5%;
+  font-size: 1.3rem;
+  padding: 0 0 0 5;
+  color: white;
 }
 
 .options-container {
@@ -416,9 +417,11 @@ hr {
   font-size: 2rem;
   color: #154c79;
 }
-
+.auto-type{
+  color:#e28743;
+}
 .header-me p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #666;
 }
 
@@ -1344,7 +1347,7 @@ span:active{
   .parallax-form-container {
     width: 100%;
     max-width: 98%;
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 2/ 5;
     position: relative;
   }
   .parallax-image {
