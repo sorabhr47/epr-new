@@ -31,3 +31,14 @@ const observer = new IntersectionObserver(entries => {
 document.querySelectorAll('.types-box').forEach(box => {
     observer.observe(box);
 });
+
+//auto type in epr to me
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+var typed = new Typed(".auto-type",{
+    string:["Producer","Brand Owner","Importer","PWP"],
+    typeSpeed:150,
+    backSpeed:150,
+    loop:true
+});
+
