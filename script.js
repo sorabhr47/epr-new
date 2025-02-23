@@ -42,3 +42,14 @@ document.addEventListener("DOMContentLoaded", function () {
         loop: true
     });
 });
+
+//auto type in header
+// script.js
+document.addEventListener("DOMContentLoaded", function () {
+    var typed = new Typed(".header-auto-type", {
+        strings: ["Fast", "Simple", "Hassle-Free"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true
+    });
+});
