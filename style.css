@@ -30,6 +30,11 @@ n{
   color: white;
 }
 
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
 .bookbtn {
   background: #e28743;
   border: 1px solid #154c79;
@@ -1058,13 +1063,18 @@ span:active{
   display: flex;
   gap: 10px;
   margin-top: 10px;
+  padding:10px;
 }
 
 .social-icons a {
-  color: white;
+  color:white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 10px;
 }
+.social-icons img{
+  width:30px;
+  height:30px;
+} 
 
 .footer {
   text-align: center;
