@@ -53,3 +53,12 @@ document.addEventListener("DOMContentLoaded", function () {
         loop: true
     });
 });
+
+//submit-popup
+function showPopup() {
+      document.getElementById('popupMessage').style.display = 'block';
+  }
+
+function closePopup() {
+      document.getElementById('popupMessage').style.display = 'none';
+  }
