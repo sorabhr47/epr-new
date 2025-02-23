@@ -13,6 +13,32 @@ body {
 n{
  color:#e28743;
 }
+/*submit-popup*/
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #154c79;
+  color: white;
+  padding: 20px;
+  border: 2px solid #e28743;
+  border-radius: 10px;
+  z-index: 1000;
+}
+.popup button {
+  background-color: #e28743;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.popup button:hover {
+  background-color: #c76b33;
+}
 
 .navbar {
   position: absolute;
