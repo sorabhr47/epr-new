@@ -208,13 +208,36 @@
     </div>
   </div>
   <!--Epr rule ends-->
+  
   <!--something to scroll or filling form with parallex background-->
   <div class="parallax">
-    <div class="parallax-content">
-      <h2>Filling Form</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<p>
-    </div>
+      <div class="container" id="epr-section">
+          <div class="image-section">
+              <img src="https://i.ibb.co/bggDn7sH/IMG-20250221-144029.jpg" alt="EPR Assistance">
+          </div>
+          <div class="content-section">
+              <h2>How Can We Assist with EPR Registration for You?</h2>
+              <ul>
+                  <li>Providing services that are of a high standard.</li>
+                  <li>Each call is answered by Instant Action in a minute.</li>
+                  <li>Personalized cost based on your needs.</li>
+                  <li>The most appropriate plan of action is chosen after thorough study and inspection.</li>
+                 <!-- <li>Wide network of partners in more than 20 nations.</li>-->
+              </ul>
+          </div>
+      </div>
   </div>  
+  <script>
+      document.addEventListener("scroll", function() {
+          const section = document.getElementById("epr-section");
+          const sectionPosition = section.getBoundingClientRect().top;
+          const screenPosition = window.innerHeight / 1.2;
+
+          if(sectionPosition < screenPosition) {
+              section.classList.add("show");
+          }
+      });
+  </script>
       
 
   <!--epr elligibillity-->
