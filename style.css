@@ -382,7 +382,8 @@ hr {
   margin: 10px;
   display: flex;
   align-items: center;
-  background-color: #ffb366;
+  background: linear-gradient(135deg,white, #e28743);
+  /*background-color: #ffb366;*/
   transition: transform 0.21s ease-in-out;
   animation: bounceIn 1s ease;
 }
@@ -420,7 +421,7 @@ hr {
 
 .step-description {
   font-size: 1.2rem;
-  color:white;
+  color:black;
   margin-top: 5px;
 }
 
@@ -451,14 +452,14 @@ hr {
 
 .header-me h2 {
   font-size: 2rem;
-  color: #154c79;
+  color: #e28743;
 }
 .auto-type{
-  color:#e28743;
+  color:#154c79;
 }
 .header-me p {
   font-size: 1.3rem;
-  color: #666;
+  color: white;
 }
 
 .grid {
