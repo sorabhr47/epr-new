@@ -98,12 +98,16 @@ a {
 header {
   width: 100%;
   height: auto;
-  background-image: url('https://i.postimg.cc/KYPMgjjN/IMG-20250223-042123.jpg');
+  background: linear-gradient(135deg, #154c79, #e28743);
+  /*
+  url('https://i.postimg.cc/KYPMgjjN/IMG-20250223-042123.jpg');*/
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .float-child {
@@ -433,7 +437,8 @@ hr {
 .container-me {
   max-width: 1200px;
   width: 100%;
-  background: #f2f2f2;
+  background: linear-gradient(135deg, #154c79, #e28743);
+  /*background: #f2f2f2*/
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 40px;
@@ -602,8 +607,10 @@ eprrule {
   
   max-width: 1200px;
   /*background-color: #f4f4f4;*/
-  background-color:whitesmoke;
-  padding: 0 20px;
+  background: linear-gradient(135deg, #154c79, #e28743);
+  /*,
+  url('https://i.postimg.cc/KYPMgjjN/IMG-20250223-042123.jpg');*/
+  padding: 10px 20px;
  }
 
 .container {
@@ -700,6 +707,7 @@ eprrule {
   text-align: center;
   padding: 0%;
   margin: 1%;
+  
 }
 .types h2{
   color: #154c79;
@@ -709,7 +717,7 @@ eprrule {
 }
 .types p{
   font-size: 1rem;
-  color: #666;
+  color: white;
   margin-bottom: 10px;
 }
 .types-section {
@@ -728,11 +736,13 @@ eprrule {
   transition: transform 1s ease-out, opacity 1s ease-in;
   opacity: 0;
   position: relative;
+  background: linear-gradient(135deg, #154c79, #e28743);
 }
 .types-box img {
   width: 100px;
   height: 100px;
   margin-bottom: 15px;
+  border-radius: 50%;
 }
 .types-left {
   transform: translateX(100%) scale(0.9);
@@ -1077,14 +1087,17 @@ span:active{
 
 .contact-section {
   padding: 50px;
+  /*
   background: linear-gradient(150deg, white 40%, #e28743 40%);
+  */
+  background: linear-gradient(135deg,white 50%, #154c79);
   color: white;
 }
 
 .contact-container {
   max-width: 1500px;
   margin: auto;
-  background: #154c79;
+  background: linear-gradient(135deg, #154c79, #e28743);
   padding: 30px;
   border-radius: 10px;
 }
