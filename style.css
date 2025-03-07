@@ -132,24 +132,6 @@ header {
   color: white;
 }
 
-.options-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 60%;
-}
-
-.option {
-  flex: 1 0 48%;
-  margin: 5px 0;
-  padding: 10px;
-  cursor: pointer;
-  color: #e28743;
-}
-
-.option:hover {
-  font-weight: bold;
-}
-
 /*
 .header-contact-form {
   margin: 15% 2%;
