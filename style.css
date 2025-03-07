@@ -132,45 +132,6 @@ header {
   color: white;
 }
 
-/*
-.header-contact-form {
-  margin: 15% 2%;
-  background: #fff;
-  padding: 2%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  text-align: center;
-}
-
-.form-group { 
-  margin-bottom: 4%;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  font-size: 15px;
-}
-
-textarea { height: 90px; resize: none; }
-
-.submit {
-  width: 100%;
-  background: #3498db;
-  color: white;
-  padding: 12px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-.submit:hover { background: #2980b9; }
-*/
 .header-contact-form {
   margin-top: 15%;
   background-color: #154c79;
@@ -926,71 +887,6 @@ li::before {
       transform: translate(-50%, -50%);
   }
 }
-/* coppied from upper code*/
-/*
-.header-contact-form {
-  background-color: #154c79;
-  padding: 5%;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-  max-width: 400px;
-}
-
-.parallax-form h2 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: white;
-}
-
-.parallax-form input {
-  width: 100%;
-  padding: 12px;
-  margin: 10px 0;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-.parallax-form button {
-  width: 100%;
-  padding: 12px;
-  background-color: #fff;
-  color: #e28743;
-  border: none;
-  border-radius: 5px;
-  font-size: 18px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.parallax-form button:hover {
-  background-color: #ffe0b2;
-  transform: scale(1.05);
-}
-
-@media (max-width: 480px) {
-  .parallax-form {
-    padding: 20px;
-    width: 100%;
-    border: 5px solid #ccc;
-  }
-
-  .parallax-form h2 {
-    font-size: 20px;
-  }
-
-  .parallax-form input,
-  .parallax-form button {
-    font-size: 14px;
-  }
-}
-in mx-769 were following
-.parallax-form {
-  margin-top: 2%;
-  width: 100%;
-}
-*/
-
-/*parallax end*/
 
 /*Faq*/
 .faq {
