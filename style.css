@@ -539,23 +539,7 @@ eprrule {
 /*epr rule end*/
 /*parallax */
 .parallax {
- /* background-image: url('https://i.ibb.co/JwnB21cD/IMG-20250209-023113.jpg');
-  background color:red;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  height: 70vh;
-  width: 90%;
-  margin: 0 auto;
-  
-  max-width: 1200px;
-  /*background-color: #f4f4f4;*/
   background: linear-gradient(135deg, #154c79, #e28743);
-  /*,
-  url('https://i.postimg.cc/KYPMgjjN/IMG-20250223-042123.jpg');*/
   padding: 10px 20px;
  }
 
